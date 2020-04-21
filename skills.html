@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+h1{
+text-align:center;
+}
+@-webkit-keyframes html{
+0% {width:0};
+100%{width:90%};
+}
+@-webkit-keyframes css{
+0% {width:0};
+100% {width:85%};
+}
+@-webkit-keyframes js{
+0% {width:0};
+100% {width:70%};
+}
+@-webkit-keyframes jquerry{
+0% {width:0};
+100% {width:25%};
+}
+*{
+list-style:none;
+font-family:"arial",sans-serif;
+}
+body{
+background:#333;
+}
+.skills{
+width:500px;
+margin:60px auto;
+color:#fff;
+}
+.skills li{
+margin:20px 0;
+}
+.bar{
+display: block;
+background:#353b48;
+height:2px;
+border: 1px solid rgba(0,0,0,0.3);
+border-radius:3px;
+overflow:hidden;
+box-shadow:0 0 10px #2187e7b3;
+}
+.bar span{
+height:2px;
+float:left;
+background:#2187e7;
+}
+.html{
+width:95%;
+-webkit-animation:html 2s;
+}
+.css{
+width:85%;
+-webkit-animation:css 2s;
+}
+.js{
+width:70%;
+-webkit-animation:js 2s;
+}
+.Jquerry{
+width:25%;
+-webkit-animation:jquerry 2s;
+}
+</style>
+</head>
+<body>
+<div class="skills">
+<h1>My Skills</h1>
+<li>	
+</li><h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+
+<li>	
+</li><h3>CSS3</h3><span class="bar"><span class="css"></span></span>
+
+<li>	
+</li><h3>Java-Script</h3><span class="bar"><span class="js"></span></span>
+
+<li>	
+</li><h3>Jquerry</h3><span class="bar"><span class="Jquerry"></span></span>
+</div>
+</body>
+</html>
